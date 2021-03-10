@@ -1,0 +1,49 @@
+h1 {
+    color: brown;
+}
+
+* {
+    /*border: solid;*/
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+body{
+    margin: 0px;
+    background-color: whitesmoke;
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.origami{
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+}
+
+a:link{
+color: #fff;
+}
+
+a:visited{
+    color: #fff;
+}
+
+.origami:hover{
+    transform: scale(1,2);
+}
